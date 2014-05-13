@@ -21,6 +21,7 @@
 		C91E087A1922B4A10027981C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91E085C1922B4A10027981C /* UIKit.framework */; };
 		C91E08821922B4A10027981C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C91E08801922B4A10027981C /* InfoPlist.strings */; };
 		C91E08841922B4A10027981C /* MTZTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C91E08831922B4A10027981C /* MTZTextFieldTests.m */; };
+		C91E088F1922B5080027981C /* MTZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C91E088E1922B5080027981C /* MTZTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C91E087F1922B4A10027981C /* MTZTextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTZTextFieldTests-Info.plist"; sourceTree = "<group>"; };
 		C91E08811922B4A10027981C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C91E08831922B4A10027981C /* MTZTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTZTextFieldTests.m; sourceTree = "<group>"; };
+		C91E088D1922B5080027981C /* MTZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTZTextField.h; sourceTree = "<group>"; };
+		C91E088E1922B5080027981C /* MTZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTZTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C91E086A1922B4A10027981C /* Main.storyboard */,
 				C91E086D1922B4A10027981C /* MTZViewController.h */,
 				C91E086E1922B4A10027981C /* MTZViewController.m */,
+				C91E088D1922B5080027981C /* MTZTextField.h */,
+				C91E088E1922B5080027981C /* MTZTextField.m */,
 				C91E08701922B4A10027981C /* Images.xcassets */,
 				C91E085F1922B4A10027981C /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C91E08691922B4A10027981C /* MTZAppDelegate.m in Sources */,
+				C91E088F1922B5080027981C /* MTZTextField.m in Sources */,
 				C91E08651922B4A10027981C /* main.m in Sources */,
 				C91E086F1922B4A10027981C /* MTZViewController.m in Sources */,
 			);
