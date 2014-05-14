@@ -10,9 +10,35 @@
 
 @implementation MTZTextField
 
-- (void)setTintColor:(UIColor *)tintColor
+- (id)initWithFrame:(CGRect)frame
 {
-	[super setTintColor:tintColor];
+	self = [super initWithFrame:frame];
+	if ( self ) {
+		[self _MTZTextFieldSetUp];
+	}
+	return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+	self = [super initWithCoder:aDecoder];
+	if ( self ) {
+		[self _MTZTextFieldSetUp];
+	}
+	return self;
+}
+
+- (id)init
+{
+	self = [super init];
+	if ( self ) {
+		[self _MTZTextFieldSetUp];
+	}
+	return self;
+}
+
+- (void)_MTZTextFieldSetUp
+{
 	UIButton *clearButton = [self valueForKey:@"_clearButton"];
 	UIImage *clearButtonImage = [clearButton imageForState:UIControlStateHighlighted];
 	[clearButton setImage:[clearButtonImage imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]
