@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MTZTextField.h"
+
 @interface MTZViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet MTZTextField *myTextField;
 
 @end
