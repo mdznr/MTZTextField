@@ -23,4 +23,9 @@
 	_myTextField.tintColor = [UIColor purpleColor];
 }
 
+- (BOOL)prefersStatusBarHidden
+{
+	return YES;
+}
+
 @end
