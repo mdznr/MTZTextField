@@ -19,8 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
-	_textField.tintColor = [UIColor purpleColor];
-	_myTextField.tintColor = [UIColor purpleColor];
+	_textField.tintColor = [UIColor redColor];
+	_myTextField.tintColor = [UIColor redColor];
 }
 
 - (BOOL)prefersStatusBarHidden
